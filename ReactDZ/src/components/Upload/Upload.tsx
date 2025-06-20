@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { useStore } from "../../store";
+import styles from "./Upload.module.css";
 export default function Upload() {
   return (
     <>

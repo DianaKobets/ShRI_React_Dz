@@ -9,11 +9,15 @@ export const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/genetator",
+    path: "/generator",
     element: <GeneratorPage />,
   },
   {
     path: "/history",
     element: <HistoryPage />,
+  },
+  {
+    path: "/upload",
+    element: <HomePage />,
   },
 ]);
