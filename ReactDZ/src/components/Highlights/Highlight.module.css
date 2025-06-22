@@ -1,0 +1,39 @@
+.container {
+  margin: 60px 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.highlight_preview {
+  color: #cb81ff;
+
+  font-size: 40px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 24px;
+  align-items: center;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: 500;
+}

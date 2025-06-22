@@ -1,0 +1,10 @@
+.historyContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.noHistory {
+  font-style: italic;
+  margin: 50px 0;
+}

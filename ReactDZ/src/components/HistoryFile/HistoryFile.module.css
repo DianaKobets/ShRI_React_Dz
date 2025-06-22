@@ -1,0 +1,71 @@
+.historyItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.historyItem:hover {
+  background-color: #f0f0f0;
+}
+
+.fileInfo {
+  display: flex;
+  background-color: #cb81ff;
+  gap: 15px;
+  color: #201b10;
+  padding: 18px 20px;
+  border-radius: 40px;
+  width: -webkit-fill-available;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fileInfo img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.fileName {
+  font-size: 30px;
+}
+
+.removeButton {
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 27px;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+
+.removeButton img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+.statuses {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+.status span {
+  margin-right: 10px;
+  color: #8f64ae;
+  transition: opacity 0.3s ease;
+}
+
+.active span {
+  color: #201b10;
+}
+
+.status img {
+  padding: 0px 5px;
+  vertical-align: top;
+  width: 40px;
+  height: 40px;
+}

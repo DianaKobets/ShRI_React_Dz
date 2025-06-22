@@ -1,0 +1,37 @@
+.h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  background: transparent;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.generated_file_container {
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.generated_file {
+  background: #d4fae6;
+  color: #201b10;
+  font-size: 35px;
+  padding: 15px 27px;
+  border-radius: 10px;
+  vertical-align: sub;
+}
+
+.generated_file.error {
+  background-color: #ff5f00;
+  color: #ffffff;
+}
+
+.generateButton {
+  background-color: #2ae881;
+  color: #201b10;
+  font-weight: 600;
+}
+
+.generateButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

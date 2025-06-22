@@ -1,0 +1,95 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.dropZone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  margin: 20px 40px;
+  background-color: #eacdff;
+  border-radius: 40px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.dragOver {
+  background-color: #d4fae6;
+}
+
+.valid {
+  background-color: transparent;
+  border: 2px solid #201b10;
+}
+
+.invalid {
+  border: 2px solid #ff5f00;
+  background-color: transparent;
+}
+
+.invalid .helperText {
+  color: #ff5f00;
+}
+
+.file {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.fileInfo {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  gap: 12px;
+  background-color: #cb81ff;
+  padding: 15px 27px;
+  border-radius: 12px;
+  color: #201b10;
+  transition: background-color 0.3s ease;
+  max-width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fileInfoInvalid {
+  background-color: #ff5f00 !important;
+  color: white !important;
+}
+
+.input {
+  display: none;
+}
+
+.label {
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  padding: 15px 51px;
+  margin-bottom: 10px;
+  background-color: white;
+  font-size: 35px;
+}
+
+.buttonText {
+  color: #201b10;
+}
+
+.helperText {
+  font-size: 30px;
+  color: #201b10;
+}
+.fileInfoProcessed {
+  background-color: #d4fae6;
+  color: #201b10;
+  padding: 15px 27px;
+  border-radius: 10px;
+}

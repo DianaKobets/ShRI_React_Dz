@@ -1,0 +1,15 @@
+.resetButton {
+  background: #201b10;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.resetButton img {
+  height: 18px;
+  width: 18px;
+}
